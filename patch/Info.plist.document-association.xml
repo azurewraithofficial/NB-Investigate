@@ -1,0 +1,21 @@
+<!-- Proposed additions to Payload/NB.app/Info.plist. This is a patch specification, not a replacement for the full plist. -->
+<key>UTExportedTypeDeclarations</key>
+<array>
+    <dict>
+        <key>UTTypeIdentifier</key><string>com.nullsbrawl.assets</string>
+        <key>UTTypeDescription</key><string>Null's Brawl Assets</string>
+        <key>UTTypeConformsTo</key><array><string>public.data</string></array>
+        <key>UTTypeTagSpecification</key>
+        <dict><key>public.filename-extension</key><array><string>NullsBrawlAssets</string></array></dict>
+    </dict>
+</array>
+
+<key>CFBundleDocumentTypes</key>
+<array>
+    <dict>
+        <key>CFBundleTypeName</key><string>Null's Brawl Assets</string>
+        <key>CFBundleTypeRole</key><string>Editor</string>
+        <key>LSHandlerRank</key><string>Owner</string>
+        <key>LSItemContentTypes</key><array><string>com.nullsbrawl.assets</string></array>
+    </dict>
+</array>
